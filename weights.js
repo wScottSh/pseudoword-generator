@@ -1,5 +1,7 @@
 // http://erlycoder.com/105/javascript-weighted-random-value-from-array
 
+const nameRatios = require('./length');
+
 var fruits=['3', '4', '5', '6', '7', '8', '9', '10', '11', '12', '13', '14', '15', '16', '17', '18', '19', '20', '21']
 var fruitweight=[5, 48, 117, 259, 304, 274, 280, 263, 171, 122, 75, 33, 20, 22, 8, 2, 3, 2, 3] //weight of each element above
 // var fruits=["Apples", "Oranges", "Grapes", "Bananas"]
@@ -57,12 +59,10 @@ function get_fast(){
     }
 }
 
-tmp = [0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0];
-// tmp = [0,0,0,0];
+module.exports = get_fast()
 
-for (var i = 0; i < 100; i++) {
-  console.log((get_fast() + 3) + ', ');
-}
+// tmp = [0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0];
+// tmp = [0,0,0,0];
 
 // for (i=0; i<100; i++){
 //     id = get_fast();
