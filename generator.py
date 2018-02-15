@@ -29,6 +29,6 @@ def nameGenerator():
         return pseudoCityName
 
 for k,v in ternChunk.items():
-    
-    if re.match(r"^la", k):
+    var = la
+    if re.match(r"^{}".format(var), k):
         print(k,v)
