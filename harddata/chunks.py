@@ -1,4 +1,4 @@
-terChunk = {'ala': 12,
+ternChunk = {'ala': 12,
 'lab': 1,
 'aba': 3,
 'bam': 1,
